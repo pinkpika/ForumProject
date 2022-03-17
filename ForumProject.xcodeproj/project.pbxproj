@@ -13,6 +13,7 @@
 		937D078427E1E82400959456 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937D078327E1E82400959456 /* Preview Assets.xcassets */; };
 		937D078B27E1E84A00959456 /* ForumPostRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D078A27E1E84A00959456 /* ForumPostRow.swift */; };
 		937D078E27E1EA2800959456 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 937D078D27E1EA2800959456 /* SDWebImageSwiftUI */; };
+		9383536827E32FF700203BBF /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383536727E32FF700203BBF /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		937D078027E1E82400959456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		937D078327E1E82400959456 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		937D078A27E1E84A00959456 /* ForumPostRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumPostRow.swift; sourceTree = "<group>"; };
+		9383536727E32FF700203BBF /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				937D077C27E1E82200959456 /* ForumProjectApp.swift */,
 				937D077E27E1E82200959456 /* ContentView.swift */,
 				937D078A27E1E84A00959456 /* ForumPostRow.swift */,
+				9383536727E32FF700203BBF /* TestView.swift */,
 				937D078027E1E82400959456 /* Assets.xcassets */,
 				937D078227E1E82400959456 /* Preview Content */,
 			);
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9383536827E32FF700203BBF /* TestView.swift in Sources */,
 				937D077F27E1E82200959456 /* ContentView.swift in Sources */,
 				937D077D27E1E82200959456 /* ForumProjectApp.swift in Sources */,
 				937D078B27E1E84A00959456 /* ForumPostRow.swift in Sources */,

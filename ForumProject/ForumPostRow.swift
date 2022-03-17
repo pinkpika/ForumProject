@@ -39,6 +39,7 @@ struct ForumPostRow: View {
                     .font(.title)
                     .fontWeight(.black)
                     .foregroundColor(.white)
+                Label("Lightning", systemImage: "bolt.fill")
                 Spacer()
                 Button(action: {}) {
                     Image(systemName: "star")
@@ -67,8 +68,6 @@ struct ForumPostRow: View {
         .background(
             ZStack {
                 RoundedRectangle(cornerRadius: 20)
-                    .stroke(model.color, style: StrokeStyle(lineWidth: 4))
-                RoundedRectangle(cornerRadius: 20)
                     .fill(
                         LinearGradient(
                             gradient: Gradient(colors: [.white, model.color]),
@@ -76,6 +75,8 @@ struct ForumPostRow: View {
                             endPoint: .trailing
                         )
                     )
+                RoundedRectangle(cornerRadius: 20)
+                    .stroke(model.color, style: StrokeStyle(lineWidth: 4))
             }
         )
         .padding(.horizontal)
@@ -98,7 +99,7 @@ struct ForumPostRow_Previews: PreviewProvider {
     static let allViewModel: [ForumPostViewModel] = [
         ForumPostViewModel(id: 1, headImageUrl: headImageUrl, name: "pink", message: "1234567", color: .yellow),
         ForumPostViewModel(id: 2, headImageUrl: headImageUrl, name: "pink", message: "000000000000", color: .red),
-        ForumPostViewModel(id: 3, headImageUrl: headImageUrl, name: "pink", message: "我是誰？", color: .red),
+        ForumPostViewModel(id: 3, headImageUrl: headImageUrl, name: "pink", message: "我是誰？", color: .green),
     ]
     
     static var previews: some View {
