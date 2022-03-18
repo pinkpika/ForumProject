@@ -1,38 +1,21 @@
 //
-//  TestView.swift
+//  ControlAndIndicatorView.swift
 //  ForumProject
 //
-//  Created by cm0620 on 2022/3/17.
+//  Created by cm0620 on 2022/3/18.
 //
 
 import SwiftUI
 
-struct TestView: View {
+struct ControlAndIndicatorView: View {
     
-    @State private var username: String = ""
-    @State private var password: String = ""
-    @State private var fullText: String = "This is some editable text..."
     @State private var value: Int = 0
     @State private var speed = 50.0
     @State private var isEditing = false
     @State private var vibrateOnRing = false
     
     var body: some View {
-
         VStack {
-            Text("Hamlet").font(.title)
-            Label("Lightning", systemImage: "bolt.fill")
-            TextField(
-                "User name (email address)",
-                text: $username
-            )
-            SecureField(
-                "Password",
-                text: $password
-            ) {
-                //handleLogin(username: username, password: password)
-            }
-            TextEditor(text: $fullText)
             Button("Sign In", action: {})
             Link("abc", destination: URL(string: "https://www.abc.com/")!)
             Menu("Actions") {
@@ -49,7 +32,6 @@ struct TestView: View {
                     isEditing = editing
                 }
             )
-            
             Stepper {
                 Text("Value: \(value)")
             } onIncrement: {
@@ -57,14 +39,16 @@ struct TestView: View {
             } onDecrement: {
                 value -= 1
             }
+            Toggle(isOn: $vibrateOnRing) {
+                Text("Vibrate on Ring")
+            }
         }
         .background(Color.init(white: 0.9))
-        .toggleStyle(.switch)
     }
 }
 
-struct TestView_Previews: PreviewProvider {
+struct ControlAndIndicatorView_Previews: PreviewProvider {
     static var previews: some View {
-        TestView()
+        ControlAndIndicatorView()
     }
 }

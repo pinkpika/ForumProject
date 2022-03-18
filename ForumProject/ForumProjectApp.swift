@@ -11,8 +11,11 @@ import SwiftUI
 struct ForumProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            //ContentView()
-            TestView()
+            //TextAndImageView()
+            //ControlAndIndicatorView()
+            //ShapeView()
+            //StackView()
+            StackScrollView()
         }
     }
 }
