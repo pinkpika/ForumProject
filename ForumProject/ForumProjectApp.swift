@@ -15,7 +15,9 @@ struct ForumProjectApp: App {
             //ControlAndIndicatorView()
             //ShapeView()
             //StackView()
-            StackScrollView()
+            //StackScrollView()
+            //StackGroupView()
+            GridView()
         }
     }
 }

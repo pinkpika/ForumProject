@@ -17,6 +17,8 @@
 		937D078B27E1E84A00959456 /* ForumPostRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D078A27E1E84A00959456 /* ForumPostRow.swift */; };
 		937D078E27E1EA2800959456 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 937D078D27E1EA2800959456 /* SDWebImageSwiftUI */; };
 		9383536827E32FF700203BBF /* TextAndImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383536727E32FF700203BBF /* TextAndImageView.swift */; };
+		9390595E27E823BF005D783F /* StackGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9390595D27E823BF005D783F /* StackGroupView.swift */; };
+		9390596027E82B05005D783F /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9390595F27E82B05005D783F /* GridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		937D078327E1E82400959456 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		937D078A27E1E84A00959456 /* ForumPostRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumPostRow.swift; sourceTree = "<group>"; };
 		9383536727E32FF700203BBF /* TextAndImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAndImageView.swift; sourceTree = "<group>"; };
+		9390595D27E823BF005D783F /* StackGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackGroupView.swift; sourceTree = "<group>"; };
+		9390595F27E82B05005D783F /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 				937660CD27E425DB00399713 /* ShapeView.swift */,
 				937660CF27E42F9F00399713 /* StackView.swift */,
 				937660D127E4376F00399713 /* StackScrollView.swift */,
+				9390595D27E823BF005D783F /* StackGroupView.swift */,
+				9390595F27E82B05005D783F /* GridView.swift */,
 			);
 			path = TestView;
 			sourceTree = "<group>";
@@ -173,7 +179,9 @@
 				937660D027E42F9F00399713 /* StackView.swift in Sources */,
 				937660CB27E423A200399713 /* ControlAndIndicatorView.swift in Sources */,
 				9383536827E32FF700203BBF /* TextAndImageView.swift in Sources */,
+				9390595E27E823BF005D783F /* StackGroupView.swift in Sources */,
 				937D077D27E1E82200959456 /* ForumProjectApp.swift in Sources */,
+				9390596027E82B05005D783F /* GridView.swift in Sources */,
 				937D078B27E1E84A00959456 /* ForumPostRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
