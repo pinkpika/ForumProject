@@ -14,10 +14,11 @@ struct ForumProjectApp: App {
             //TextAndImageView()
             //ControlAndIndicatorView()
             //ShapeView()
-            //StackView()
+            //ProfileView()
             //StackScrollView()
             //StackGroupView()
-            GridView()
+            //GridUnicodeView()
+            GridProfileView()
         }
     }
 }

@@ -1,5 +1,5 @@
 //
-//  StackView.swift
+//  ProfileView.swift
 //  ForumProject
 //
 //  Created by cm0620 on 2022/3/18.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct StackView: View {
+struct ProfileView: View {
     var body: some View {
         ZStack(alignment: .bottom) {
             Image("avatar")
@@ -31,8 +31,8 @@ struct StackView: View {
     }
 }
 
-struct StackView_Previews: PreviewProvider {
+struct ProfileView_Previews: PreviewProvider {
     static var previews: some View {
-        StackView()
+        ProfileView()
     }
 }

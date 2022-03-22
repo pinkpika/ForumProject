@@ -12,7 +12,7 @@ struct StackScrollView: View {
         ScrollView(.horizontal) {
             LazyHStack {
                 ForEach(0...10, id: \.self) { i in
-                    StackView()
+                    ProfileView()
                 }
             }
         }.frame(maxHeight: 300.0)

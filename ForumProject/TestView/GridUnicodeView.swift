@@ -1,5 +1,5 @@
 //
-//  GridView.swift
+//  GridUnicodeView.swift
 //  ForumProject
 //
 //  Created by cm0620 on 2022/3/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct GridView: View {
+struct GridUnicodeView: View {
     
     let rows: [GridItem] = Array(repeating: GridItem() , count: 2)
     let columns: [GridItem] = Array(repeating: .init(.flexible()), count: 2)
@@ -41,8 +41,8 @@ struct GridView: View {
     }
 }
 
-struct GridView_Previews: PreviewProvider {
+struct GridUnicodeView_Previews: PreviewProvider {
     static var previews: some View {
-        GridView()
+        GridUnicodeView()
     }
 }
