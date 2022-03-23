@@ -7,35 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		937660CB27E423A200399713 /* ControlAndIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937660CA27E423A200399713 /* ControlAndIndicatorView.swift */; };
-		937660CE27E425DB00399713 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937660CD27E425DB00399713 /* ShapeView.swift */; };
-		937660D027E42F9F00399713 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937660CF27E42F9F00399713 /* ProfileView.swift */; };
-		937660D227E4376F00399713 /* StackScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937660D127E4376F00399713 /* StackScrollView.swift */; };
 		937D077D27E1E82200959456 /* ForumProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D077C27E1E82200959456 /* ForumProjectApp.swift */; };
 		937D078127E1E82400959456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937D078027E1E82400959456 /* Assets.xcassets */; };
 		937D078427E1E82400959456 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937D078327E1E82400959456 /* Preview Assets.xcassets */; };
 		937D078B27E1E84A00959456 /* ForumPostRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D078A27E1E84A00959456 /* ForumPostRow.swift */; };
 		937D078E27E1EA2800959456 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 937D078D27E1EA2800959456 /* SDWebImageSwiftUI */; };
-		9383536827E32FF700203BBF /* TextAndImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383536727E32FF700203BBF /* TextAndImageView.swift */; };
-		9390595E27E823BF005D783F /* StackGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9390595D27E823BF005D783F /* StackGroupView.swift */; };
-		9390596027E82B05005D783F /* GridUnicodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9390595F27E82B05005D783F /* GridUnicodeView.swift */; };
-		9390597927E9B693005D783F /* GridProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9390597827E9B693005D783F /* GridProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		937660CA27E423A200399713 /* ControlAndIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlAndIndicatorView.swift; sourceTree = "<group>"; };
-		937660CD27E425DB00399713 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
-		937660CF27E42F9F00399713 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		937660D127E4376F00399713 /* StackScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackScrollView.swift; sourceTree = "<group>"; };
 		937D077927E1E82200959456 /* ForumProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForumProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		937D077C27E1E82200959456 /* ForumProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumProjectApp.swift; sourceTree = "<group>"; };
 		937D078027E1E82400959456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		937D078327E1E82400959456 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		937D078A27E1E84A00959456 /* ForumPostRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumPostRow.swift; sourceTree = "<group>"; };
-		9383536727E32FF700203BBF /* TextAndImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAndImageView.swift; sourceTree = "<group>"; };
-		9390595D27E823BF005D783F /* StackGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackGroupView.swift; sourceTree = "<group>"; };
-		9390595F27E82B05005D783F /* GridUnicodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridUnicodeView.swift; sourceTree = "<group>"; };
-		9390597827E9B693005D783F /* GridProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,21 +34,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		937660CC27E423FD00399713 /* TestView */ = {
-			isa = PBXGroup;
-			children = (
-				9383536727E32FF700203BBF /* TextAndImageView.swift */,
-				937660CA27E423A200399713 /* ControlAndIndicatorView.swift */,
-				937660CD27E425DB00399713 /* ShapeView.swift */,
-				937660CF27E42F9F00399713 /* ProfileView.swift */,
-				937660D127E4376F00399713 /* StackScrollView.swift */,
-				9390595D27E823BF005D783F /* StackGroupView.swift */,
-				9390595F27E82B05005D783F /* GridUnicodeView.swift */,
-				9390597827E9B693005D783F /* GridProfileView.swift */,
-			);
-			path = TestView;
-			sourceTree = "<group>";
-		};
 		937D077027E1E82200959456 = {
 			isa = PBXGroup;
 			children = (
@@ -85,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				937D077C27E1E82200959456 /* ForumProjectApp.swift */,
-				937660CC27E423FD00399713 /* TestView */,
 				937D078A27E1E84A00959456 /* ForumPostRow.swift */,
 				937D078027E1E82400959456 /* Assets.xcassets */,
 				937D078227E1E82400959456 /* Preview Content */,
@@ -177,15 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				937660D227E4376F00399713 /* StackScrollView.swift in Sources */,
-				937660CE27E425DB00399713 /* ShapeView.swift in Sources */,
-				937660D027E42F9F00399713 /* ProfileView.swift in Sources */,
-				9390597927E9B693005D783F /* GridProfileView.swift in Sources */,
-				937660CB27E423A200399713 /* ControlAndIndicatorView.swift in Sources */,
-				9383536827E32FF700203BBF /* TextAndImageView.swift in Sources */,
-				9390595E27E823BF005D783F /* StackGroupView.swift in Sources */,
 				937D077D27E1E82200959456 /* ForumProjectApp.swift in Sources */,
-				9390596027E82B05005D783F /* GridUnicodeView.swift in Sources */,
 				937D078B27E1E84A00959456 /* ForumPostRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

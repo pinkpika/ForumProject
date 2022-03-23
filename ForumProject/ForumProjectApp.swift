@@ -11,14 +11,6 @@ import SwiftUI
 struct ForumProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            //TextAndImageView()
-            //ControlAndIndicatorView()
-            //ShapeView()
-            //ProfileView()
-            //StackScrollView()
-            //StackGroupView()
-            //GridUnicodeView()
-            GridProfileView()
         }
     }
 }
